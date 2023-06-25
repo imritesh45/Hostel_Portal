@@ -1,8 +1,7 @@
 <?php
-// configuration
 include('../connect.php');
 
-// new data
+
 
 $id = $_POST['id'];
 $a = $_POST['staffname'];
@@ -11,7 +10,7 @@ $c = $_POST['doj'];
 $d = $_POST['mobile'];
 $e = $_POST['address'];
 
-// query
+
 
 $sql = "UPDATE staff 
         SET staffname=?,work=?,doj=?, mobile=?, address=?

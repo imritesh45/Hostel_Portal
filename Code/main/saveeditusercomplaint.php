@@ -1,8 +1,6 @@
 <?php
-// configuration
 include('../connect.php');
 
-// new data
 $id = $_POST['usn'];
 $a = $_POST['sname'];
 $b = $_POST['mobile'];
@@ -11,7 +9,6 @@ $d = $_POST['room'];
 $e = $_POST['cfor'];
 $f = $_POST['details'];
 
-// query
 
 $sql = "UPDATE scomplaint 
         SET sname=?,mobile=?,floor=?,room=?,cfor=?,details=?

@@ -129,7 +129,7 @@ $finalcode = 'RS-' . createRandomPassword();
         showtime();
     }
     window.onload = startclock;
-    // End 
+   
     -->
 </SCRIPT>
 
@@ -149,9 +149,9 @@ $finalcode = 'RS-' . createRandomPassword();
 
                     </ul>
                 </div>
-                <!--/.well -->
+                
             </div>
-            <!--/span-->
+        
             <div class="span10">
                 <div class="contentheader">
                     <i class="icon-table"></i> Edit Leave
@@ -209,13 +209,10 @@ $finalcode = 'RS-' . createRandomPassword();
 
                             $(".delbutton").click(function() {
 
-                                //Save the link in a variable called element
                                 var element = $(this);
 
-                                //Find the id of the link that was clicked
                                 var del_id = element.attr("id");
 
-                                //Built a url to send
                                 var info = 'id=' + del_id;
                                 if (confirm("Sure you want to delete this Admin? There is NO undo!")) {
 

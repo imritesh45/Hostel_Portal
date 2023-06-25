@@ -1,13 +1,12 @@
 <?php
-// configuration
+
 include('../connect.php');
 
-// new data
+
 $id = $_POST['day'];
 $a = $_POST['breakfast'];
 $h = $_POST['lunch'];
 $b = $_POST['dinner'];
-// query
 
 $sql = "UPDATE mess 
         SET breakfast=?,lunch=?,dinner=?

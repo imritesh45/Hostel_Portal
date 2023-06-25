@@ -15,7 +15,7 @@
 		body {
 			padding-top: 60px;
 			padding-bottom: 40px;
-			background-color: #DDC6B6;
+			background-color:#DDC6B6;
 		}
 
 		.sidebar-nav {
@@ -126,7 +126,7 @@ $finalcode = 'RS-' . createRandomPassword();
 		showtime();
 	}
 	window.onload = startclock;
-	// End 
+	
 	-->
 </SCRIPT>
 
@@ -231,13 +231,10 @@ $finalcode = 'RS-' . createRandomPassword();
 
 			$(".delbutton").click(function() {
 
-				//Save the link in a variable called element
 				var element = $(this);
 
-				//Find the id of the link that was clicked
 				var del_id = element.attr("id");
 
-				//Built a url to send
 				var info = 'id=' + del_id;
 				if (confirm("Sure you want to delete this admin? There is NO undo!")) {
 

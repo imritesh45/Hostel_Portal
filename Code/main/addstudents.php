@@ -177,10 +177,11 @@ $finalcode = 'RS-' . createRandomPassword();
                 <span>USN: </span><input type="text" style="width:265px; height:30px;" name="usn" Required /><br>
                 <span>College: </span>
                 <select name="college" style="width:265px; height:30px; margin-left:-5px;">
-                  <option>KSIT</option>
-                  <option>KSSEM</option>
-                  <option>KSP</option>
-                  <option>KSA</option>
+                  <option>SVERI Engineering</option>
+                  <option>SVERI Diploma</option>
+                  <option>SVERI Pharmacy</option>
+                  <option>SVERI MBA</option>
+                  <option>SVERI MCA</option>
                 </select><br>
                 <span>Semester: </span><input type="number" style="width:265px; height:30px;" name="semester" required /><br>
                 <span>Branch: </span><input type="text" name="branch" style="width:265px; height:30px; margin-left:-5px;" required />

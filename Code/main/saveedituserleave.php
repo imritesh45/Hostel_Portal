@@ -1,8 +1,8 @@
 <?php
-// configuration
+
 include('../connect.php');
 
-// new data
+
 $id = $_POST['usn'];
 $a = $_POST['sname'];
 $b = $_POST['mobile'];
@@ -12,7 +12,7 @@ $e = $_POST['departuredate'];
 $f = $_POST['arrivaldate'];
 $g = $_POST['place'];
 $h = $_POST['reason'];
-// query
+
 
 $sql = "UPDATE sleave 
         SET sname=?,mobile=?,floor=?,room=?,departuredate=?,arrivaldate=?,place=?,reason=?

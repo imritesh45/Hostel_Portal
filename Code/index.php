@@ -1,8 +1,8 @@
 <?php
-	//Start session
+	
 	session_start();
 	
-	//Unset the variables stored in session
+	
 	unset($_SESSION['SESS_MEMBER_ID']);
 	unset($_SESSION['SESS_FIRST_NAME']);
 	unset($_SESSION['SESS_LAST_NAME']);
@@ -12,6 +12,13 @@
 <title>
 HOSTEL PORTAL
 </title>
+<style>
+.head{
+	font:bold;
+	width;20;
+}
+	</style>
+<!-- <header class="head"><h2>HOSTLE PORTAL<h2></header> -->
     <link rel="shortcut icon" href="main/images/pos.jpg">
 
   <link href="main/css/bootstrap.css" rel="stylesheet">
@@ -40,7 +47,9 @@ HOSTEL PORTAL
 		</div>
 	
 </div>
-<div id="login">
+
+<div id="login" >
+
 <?php
 if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
 	foreach($_SESSION['ERRMSG_ARR'] as $msg) {
@@ -68,7 +77,19 @@ if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count
 		 </form><button class="btn btn-large btn-primary "><a href="user.php">User Login</a></button>
 </div>
 </div>
+<style>
+	.copyright-agileinfo{
+		text-align: center;
+		margin-top: 300px;
+		color: white;
+	}
+</style>
+<footer >
+        <p class="copyright-agileinfo"> &copy; 2023 Hostel Portal Project. All Rights Reserved | Design by <a href="https://www.linkedin.com/in/ritesh-jadhav-289026206/">Ritesh-Aditya-Ganesh-Mahesh</a></p>
+    </footer>
 </div>
+
 </div>
+
 </body>
 </html>

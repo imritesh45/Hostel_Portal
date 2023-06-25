@@ -1,14 +1,12 @@
 <?php
-// configuration
+
 include('../connect.php');
 
-// new data
 $id = $_POST['id'];
 $a = $_POST['name'];
 $h = $_POST['email'];
 $b = $_POST['username'];
 $c = $_POST['password'];
-// query
 
 $sql = "UPDATE admin 
         SET name=?,email=?,username=?,password=?

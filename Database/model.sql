@@ -95,7 +95,7 @@ CREATE TABLE `scomplaint` (
 --
 
 INSERT INTO `scomplaint` (`sname`, `usn`, `mobile`, `floor`, `room`, `cfor`, `details`) VALUES
-('NITISH', '1KS17CS049', 7352374098, 1, 13, 'Transportation', 'timing should change');
+('NITISH', '77', 7352374098, 1, 13, 'Transportation', 'timing should change');
 
 -- --------------------------------------------------------
 
@@ -120,7 +120,7 @@ CREATE TABLE `sleave` (
 --
 
 INSERT INTO `sleave` (`sname`, `usn`, `mobile`, `floor`, `room`, `departuredate`, `arrivaldate`, `place`, `reason`) VALUES
-('XYZPQR', '1KS17CS349', 2015469520, 1, 56, '2021-01-05', '2021-01-22', 'LA', 'TOUR');
+('XYZPQR', '1MH17CS349', 2015469520, 1, 56, '2021-01-05', '2021-01-22', 'LA', 'TOUR');
 
 -- --------------------------------------------------------
 
@@ -142,7 +142,7 @@ CREATE TABLE `staff` (
 --
 
 INSERT INTO `staff` (`id`, `staffname`, `work`, `doj`, `mobile`, `address`) VALUES
-(1, 'sqw', 'clean', '2021-01-08', 9620783685, 'andhra pradesh');
+(1, 'sqw', 'clean', '2023-04-08', 9620783685, 'maharastra');
 
 -- --------------------------------------------------------
 
@@ -166,7 +166,7 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`sname`, `usn`, `college`, `semester`, `branch`, `state`, `mobile`, `file`) VALUES
-('Lokesh BM', '1KS17CS038', 'KSIT', 7, 'CS', 'Karnataka', '9587542198', 'your_site_name_c65ed947fe67fb9b4b513454c2caad4f.jpg');
+('Ritesh J', '45', 'SVERI Engineering', 7, 'CSE', 'Maharastra', '9587542198', 'your_site_name_c65ed947fe67fb9b4b513454c2caad4f.jpg');
 
 -- --------------------------------------------------------
 
@@ -177,7 +177,7 @@ INSERT INTO `students` (`sname`, `usn`, `college`, `semester`, `branch`, `state`
 CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `name` varchar(55) NOT NULL,
-  `number` int(12) NOT NULL,
+  `number` bigint(20) UNSIGNED NOT NULL,
   `username` varchar(55) NOT NULL,
   `password` varchar(55) NOT NULL,
   `file` varchar(400) NOT NULL
@@ -188,7 +188,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `number`, `username`, `password`, `file`) VALUES
-(3, 'USER1', 2147483647, 'team17', 'team17', 'your_site_name_6f42bebb85b2def5fcbbada858eab3ac.jpg');
+(3, 'USER1', 8766451185, 'team17', 'team17', 'your_site_name_6f42bebb85b2def5fcbbada858eab3ac.jpg');
 
 --
 -- Indexes for dumped tables

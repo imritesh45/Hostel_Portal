@@ -1,14 +1,11 @@
 <?php
-// configuration
 include('../connect.php');
 
-// new data
 $id = $_POST['memi'];
 $a = $_POST['name'];
 $h = $_POST['number'];
 $b = $_POST['username'];
 $c = $_POST['password'];
-// query
 
 $sql = "UPDATE user 
         SET name=?,number=?,username=?,password=?

@@ -27,7 +27,6 @@
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 
 	<link href="../style.css" media="screen" rel="stylesheet" type="text/css" />
-	<!--sa poip up-->
 	<script src="jeffartagame.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/application.js" type="text/javascript" charset="utf-8"></script>
 	<link href="src/facebox.css" media="screen" rel="stylesheet" type="text/css" />
@@ -129,7 +128,6 @@ $finalcode = 'RS-' . createRandomPassword();
 		showtime();
 	}
 	window.onload = startclock;
-	// End 
 	-->
 </SCRIPT>
 
@@ -148,9 +146,7 @@ $finalcode = 'RS-' . createRandomPassword();
 
 					</ul>
 				</div>
-				<!--/.well -->
 			</div>
-			<!--/span-->
 			<div class="span10">
 				<div class="contentheader">
 					<i class="icon-table"></i> VIEW STAFFS INFO.

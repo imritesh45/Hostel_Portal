@@ -129,7 +129,6 @@ $finalcode = 'RS-' . createRandomPassword();
     showtime();
   }
   window.onload = startclock;
-  // End 
   -->
 </SCRIPT>
 
@@ -147,9 +146,9 @@ $finalcode = 'RS-' . createRandomPassword();
 
           </ul>
         </div>
-        <!--/.well -->
+       
       </div>
-      <!--/span-->
+  
       <div class="span10">
         <div class="contentheader">
           <i class="icon-table"></i> Users
